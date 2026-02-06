@@ -1,0 +1,198 @@
+[
+  {
+    "id": "M01",
+    "track": "Mathe Grundlagen",
+    "title": "Brüche, Potenzen, Wurzeln",
+    "summary": "Du stärkst das Fundament der Arithmetik: Brüche sicher umformen, Potenzen verstehen und Wurzeln interpretieren.",
+    "key_points": [
+      "Brüche kürzen/erweitern und gleichnamig machen",
+      "Potenzgesetze anwenden",
+      "Wurzeln als Umkehrung von Potenzen"
+    ],
+    "exercise": "Vereinfache: (6/15) + (4/10). Bestimme danach 2^3 * 2^4 und sqrt(81).",
+    "example": "6/15 = 2/5, 4/10 = 2/5 → Summe 4/5. Potenzen: 2^3 * 2^4 = 2^7.",
+    "hint": "Kürze zuerst, bringe Brüche auf gleichen Nenner, nutze Potenzgesetze."
+  },
+  {
+    "id": "M02",
+    "track": "Mathe Grundlagen",
+    "title": "Lineare Gleichungen lösen",
+    "summary": "Du lernst lineare Gleichungen zu isolieren und korrekt umzuformen.",
+    "key_points": [
+      "Äquivalenzumformungen",
+      "Variablen isolieren",
+      "Kontrolle durch Einsetzen"
+    ],
+    "exercise": "Löse: 3x - 7 = 11 und prüfe die Lösung.",
+    "example": "3x = 18 → x = 6.",
+    "hint": "Alles mit x auf eine Seite, Zahlen auf die andere."
+  },
+  {
+    "id": "M03",
+    "track": "Mathe Grundlagen",
+    "title": "Quadratische Gleichungen (pq-Formel)",
+    "summary": "Quadratische Gleichungen lösen und Lösungen interpretieren.",
+    "key_points": [
+      "In die Normalform bringen",
+      "pq-Formel anwenden",
+      "Lösungen prüfen"
+    ],
+    "exercise": "Löse: x^2 - 4x - 5 = 0.",
+    "example": "pq: x = 2 ± sqrt(4 + 5) = 2 ± 3 → x = 5 oder -1.",
+    "hint": "Bringe die Gleichung zuerst auf x^2 + px + q = 0."
+  },
+  {
+    "id": "M04",
+    "track": "Mathe Grundlagen",
+    "title": "Funktionen verstehen",
+    "summary": "Du lernst, wie Funktionen definiert sind und was ein Funktionsgraph aussagt.",
+    "key_points": [
+      "Funktionsbegriff: Zuordnung von x zu y",
+      "Graph als visuelle Darstellung",
+      "Lineare vs. quadratische Funktionen"
+    ],
+    "exercise": "Skizziere f(x)=2x+1 und g(x)=x^2.",
+    "example": "f(x) ist eine Gerade mit Steigung 2, g(x) eine Parabel.",
+    "hint": "Berechne einige Punkte und zeichne den Graph."
+  },
+  {
+    "id": "A01",
+    "track": "Analysis",
+    "title": "Ableitungen: Grundlagen",
+    "summary": "Ableitungen beschreiben die Steigung einer Funktion und geben an, wie schnell sich y ändert.",
+    "key_points": [
+      "Ableitung als Steigung",
+      "Potenzregel anwenden",
+      "Tangente interpretieren"
+    ],
+    "exercise": "Leite f(x)=3x^2 ab und bestimme die Steigung bei x=2.",
+    "example": "f'(x)=6x, f'(2)=12.",
+    "hint": "Nutze die Potenzregel: (x^n)' = n*x^(n-1)."
+  },
+  {
+    "id": "A02",
+    "track": "Analysis",
+    "title": "Extrempunkte finden",
+    "summary": "Extrempunkte entstehen, wenn die Ableitung null wird und das Vorzeichen wechselt.",
+    "key_points": [
+      "f'(x)=0 lösen",
+      "Vorzeichenwechsel prüfen",
+      "Hochpunkt/Tiefpunkt unterscheiden"
+    ],
+    "exercise": "Bestimme die Extrempunkte von f(x)=x^2-4x+3.",
+    "example": "f'(x)=2x-4=0 → x=2. f(2)= -1 (Tiefpunkt).",
+    "hint": "Leite ab, löse f'(x)=0 und überprüfe das Vorzeichen."
+  },
+  {
+    "id": "LA01",
+    "track": "Lineare Algebra",
+    "title": "Vektoren und Skalarprodukt",
+    "summary": "Du lernst, wie man Vektoren addiert, skaliert und das Skalarprodukt interpretiert.",
+    "key_points": [
+      "Vektoraddition",
+      "Skalare Multiplikation",
+      "Skalarprodukt als Winkelmaß"
+    ],
+    "exercise": "Berechne (2,1)·(3,-4) und erkläre das Ergebnis.",
+    "example": "2*3 + 1*(-4) = 6-4=2.",
+    "hint": "Multipliziere komponentenweise und addiere."
+  },
+  {
+    "id": "LA02",
+    "track": "Lineare Algebra",
+    "title": "Matrizen: Grundlagen",
+    "summary": "Matrizen helfen, lineare Gleichungssysteme kompakt zu lösen.",
+    "key_points": [
+      "Matrixmultiplikation",
+      "Determinante 2x2",
+      "Anwendungen in LGS"
+    ],
+    "exercise": "Multipliziere A=[[1,2],[3,4]] mit B=[[2,0],[1,2]].",
+    "example": "A*B = [[1*2+2*1, 1*0+2*2],[3*2+4*1, 3*0+4*2]] = [[4,4],[10,8]].",
+    "hint": "Zeile mal Spalte berechnen."
+  },
+  {
+    "id": "D01",
+    "track": "Diskrete Mathematik",
+    "title": "Logik & Wahrheitstabellen",
+    "summary": "Logische Ausdrücke analysieren und mit Wahrheitstabellen prüfen.",
+    "key_points": [
+      "Aussagenlogik",
+      "Implikation, Äquivalenz",
+      "Wahrheitstabellen"
+    ],
+    "exercise": "Erstelle die Wahrheitstabelle für (p ∧ q) → p.",
+    "example": "Die Aussage ist immer wahr.",
+    "hint": "Teste alle Kombinationen von p und q."
+  },
+  {
+    "id": "D02",
+    "track": "Diskrete Mathematik",
+    "title": "Kombinatorik",
+    "summary": "Zählprinzipien verstehen, um Möglichkeiten effizient zu bestimmen.",
+    "key_points": [
+      "Permutationen",
+      "Kombinationen",
+      "Binomialkoeffizienten"
+    ],
+    "exercise": "Wie viele 3er-Teams lassen sich aus 8 Personen bilden?",
+    "example": "C(8,3) = 56.",
+    "hint": "Nutze Kombinationen: n!/(k!(n-k)!)."
+  },
+  {
+    "id": "P01",
+    "track": "Python Basics",
+    "title": "Variablen & Datentypen",
+    "summary": "Du lernst, wie Python Daten speichert und verarbeitet.",
+    "key_points": [
+      "int, float, str, bool",
+      "Variablen benennen",
+      "Typumwandlung"
+    ],
+    "exercise": "Erstelle Variablen für Alter, Name und Zielstudium und gib sie aus.",
+    "example": "name = \"Aylin\"; alter = 19; print(name, alter)",
+    "hint": "Nutze print() und prüfe type()."
+  },
+  {
+    "id": "P02",
+    "track": "Python Basics",
+    "title": "Kontrollstrukturen",
+    "summary": "Mit if/else und Schleifen steuerst du Programmlogik.",
+    "key_points": [
+      "if/elif/else",
+      "for- und while-Schleifen",
+      "break/continue"
+    ],
+    "exercise": "Schreibe ein Programm, das alle geraden Zahlen von 2 bis 20 ausgibt.",
+    "example": "for i in range(2, 21, 2): print(i)",
+    "hint": "Nutze range() mit Schrittweite."
+  },
+  {
+    "id": "P03",
+    "track": "Python Basics",
+    "title": "Funktionen schreiben",
+    "summary": "Funktionen kapseln Logik und machen Code wiederverwendbar.",
+    "key_points": [
+      "def und return",
+      "Parameter und Rückgabewerte",
+      "Dokumentation mit Docstrings"
+    ],
+    "exercise": "Schreibe eine Funktion, die die Fläche eines Rechtecks berechnet.",
+    "example": "def flaeche(a, b): return a * b",
+    "hint": "Teste die Funktion mit mehreren Werten."
+  },
+  {
+    "id": "P04",
+    "track": "Python Basics",
+    "title": "Listen & Dictionaries",
+    "summary": "Listen und Dictionaries sind zentrale Datenstrukturen für Lern-Apps.",
+    "key_points": [
+      "Listen anlegen und iterieren",
+      "Dictionaries für Schlüssel-Wert-Paare",
+      "Suchen und Filtern"
+    ],
+    "exercise": "Erstelle ein Dictionary mit drei Mathe-Begriffen und Erklärungen.",
+    "example": "{\"Vektor\": \"gerichtete Länge\", \"Matrix\": \"Tabelle\", \"Ableitung\": \"Steigung\"}",
+    "hint": "Nutze for-Schleifen, um Einträge auszugeben."
+  }
+]
